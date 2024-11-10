@@ -2,14 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\bin",
-    "\\Views",
+    "\\Controllers",
     "\\Views\\Blog",
     "\\Views\\Contact",
     "\\Views\\Home",
     "\\Views\\Shared",
-    "\\wwwroot",
     "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\wwwroot\\css\\style.css",
+  "SelectedNode": "\\Models",
   "PreviewInSolutionExplorer": false
 }
