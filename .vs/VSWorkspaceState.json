@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\Views",
+    "\\Views\\Blog",
+    "\\Views\\Contact",
+    "\\Views\\Home",
+    "\\Views\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\wwwroot\\css\\style.css",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,27 @@
+@model IEnumerable<WebApp.Models.Product>
+
+<h2>Search Results for "@ViewBag.Keyword"</h2>
+
+@if (Model.Any())
+{
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="product-item">
+                    <img src="@product.ImageUrl" alt="@product.ProductName" class="product-img" />
+                    <div class="product-details">
+                        <h5>@product.ProductName</h5>
+                        <p>Price: <strong>@product.Price.ToString("C")</strong></p>
+                        <p>@product.Description</p>
+                        <a href="/Home/Details/@product.ProductId" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No products found matching your search criteria.</p>
+}
